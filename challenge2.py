@@ -56,4 +56,3 @@ def getWinnerTotalGoals(competition, year):
         for d in response['data']:
             guest_goals += int(d[f'team2goals'])
     return host_goals + guest_goals
-print(getWinnerTotalGoals(competition='UEFA Champions League', year=2011))

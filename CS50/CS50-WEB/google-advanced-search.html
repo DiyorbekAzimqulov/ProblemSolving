@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Image Search
+        </title>
+        <style>
+            form { 
+                    text-align: left; 
+                }
+        </style>
+    </head>
+    <body>
+        <a style="text-align: right;" href="google-search.html">Google Search</a>
+        <form action="https://www.google.com/search">
+            <label for="all-word" style="text-align: left;">All words </label>
+            <input type="text" name="as_q" id="all-word"><br>
+            <label for="exact-word">Which exact words</label>
+            <input type="text" name="as_epq" id="exact-word"><br>
+            <label for="any-word">Any words involved</label>
+            <input type="text" name="as_oq" id="any-word"><br>
+            <label for="none-word">None of words</label>
+            <input type="text" name="as_eq" id="none-word"><br>
+            <input type="submit" value="Google advanced search">
+        </form>
+    </body>
+</html>
