@@ -9,6 +9,7 @@ def beautifulTriplets(arr, d):
                     for k in range(j+1, len(arr)): 
                         if (arr[k] - arr[j] == d):
                             triplets.append([i, j, k])
+                            break
     return len(triplets)
 arr = list(range(10000))
 d = 10
